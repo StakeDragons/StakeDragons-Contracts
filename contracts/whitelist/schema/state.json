@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "State",
+  "type": "object",
+  "required": [
+    "claimed_dragons",
+    "minter",
+    "name",
+    "size",
+    "symbol"
+  ],
+  "properties": {
+    "claimed_dragons": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0.0
+    },
+    "minter": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "size": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0.0
+    },
+    "symbol": {
+      "type": "string"
+    }
+  }
+}

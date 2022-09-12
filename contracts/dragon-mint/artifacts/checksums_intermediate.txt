@@ -1,0 +1,1 @@
+1561bad36a974f257619772d9ac8e362eb0a3c40a40c7fdef79a6e0e5a754dfd  ./target/wasm32-unknown-unknown/release/dragon_mint.wasm
